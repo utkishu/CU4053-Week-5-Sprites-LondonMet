@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{1450328a-74e6-4445-9aac-598bfc4279d2}</ProjectGuid>
-    <RootNamespace>CU4012SFML</RootNamespace>
+    <RootNamespace>CU4053-SFML</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>CU4053-SFML</ProjectName>
   </PropertyGroup>
@@ -134,17 +134,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="Cursor.cpp" />
+    <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Framework\BaseLevel.cpp" />
     <ClCompile Include="Framework\GameObject.cpp" />
     <ClCompile Include="Framework\Input.cpp" />
     <ClCompile Include="Level.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Player.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="Cursor.h" />
+    <ClInclude Include="Enemy.h" />
     <ClInclude Include="Framework\BaseLevel.h" />
     <ClInclude Include="Framework\GameObject.h" />
     <ClInclude Include="Framework\Input.h" />
     <ClInclude Include="Level.h" />
+    <ClInclude Include="Player.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Framework\DO_NOT_EDIT.txt" />
